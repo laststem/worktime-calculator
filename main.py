@@ -11,9 +11,6 @@ def input_time(s):
 
 start_time, end_time, delta = None, None, None
 
-# 10:45~15:59
-# 17:16~22:40 -> 5:24
-# 10:45~21:23
 while True:
     t = input_time('Enter the start time: ')
     if start_time is None:
