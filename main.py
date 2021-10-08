@@ -26,4 +26,4 @@ while True:
     if start_time != t:
         end_time += (t2 - t)
 
-    print('%s ~ %s' % (start_time.strftime('%H:%M'), end_time.strftime('%H:%M')))
+    print('work time: %s ~ %s' % (start_time.strftime('%H:%M'), end_time.strftime('%H:%M')))
